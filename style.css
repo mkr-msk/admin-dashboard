@@ -13,6 +13,9 @@ body {
 
 aside {
     background-color: rgba(68, 147, 250, 0.855);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 main {
