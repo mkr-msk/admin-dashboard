@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -30,6 +31,34 @@ aside {
 .logo > span {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+aside ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+aside ul li {
+    margin: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+aside a:hover {
+    cursor: pointer;
 }
 
 main {
